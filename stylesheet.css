@@ -1,59 +1,59 @@
 @charset "UTF-8";
 body {
-  font-family: 'Arial','メイリオ', Meiryo,'Osaka','ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
-}
+  font-family: 'Arial','メイリオ', Meiryo,'Osaka','ヒラギノ角ゴシック','Hiragino Sans',sans-serif; }
 
 li {
-  list-style: none;
-}
+  list-style: none; }
 
 .header {
   background-color: #e6e6fa;
-  height: 90px;
-}
+  height: 90px; }
 
 .header-logo {
   float: left;
   font-size: 36px;
   padding: 20px 40px;
-  color: #2f4f4f;
-}
+  color: #2f4f4f; }
 
 .header-list li {
   float: left;
   padding: 33px 20px;
-}
+  color: #2f4f4f; }
 
 .main {
   padding: 100px 80px;
-  background-color: #e6e6fa;
-}
+  background-color: #e6e6fa; }
 
-.copy-container.h1 {
-  font-size: 70px;
-}
-.copy-container.h2 {
-  font-size: 30px;
-}
+.copy-container {
+  color: #2f4f4f; }
+  .copy-container.h1 {
+    font-size: 70px; }
+  .copy-container.h2 {
+    font-size: 30px; }
+
+.contents {
+  height: 500px; }
+
+.section-title {
+  border-bottom: 2px solid #fff; }
+
+.contents-item {
+  float: left; }
 
 .footer {
   background-color: #778899;
   color: #fff;
   height: 120px;
-  padding: 40px;
-}
+  padding: 40px; }
 
 .fooetr-logo {
   font-size: 32px;
-  float: left;
-}
+  float: left; }
 
 .footer-list {
-  float: right;
-}
+  float: right; }
 
 .footer-list li {
-  padding-bottom: 20px;
-}
+  padding-bottom: 20px; }
 
 /*# sourceMappingURL=stylesheet.css.map */

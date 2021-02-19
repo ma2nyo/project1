@@ -1,3 +1,5 @@
+@import "variables";
+
 body{
 font-family: 'Arial','メイリオ', Meiryo,'Osaka','ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
 
@@ -16,12 +18,13 @@ li{
   float: left;
   font-size: 36px;
   padding: 20px 40px;
-  color: #2f4f4f;
+  color: $main;
 }
 
 .header-list li{
   float: left;
   padding: 33px 20px;
+  color: $main;
 }
 
 .main{
@@ -30,6 +33,7 @@ li{
 }
 
 .copy-container{
+  color: $main;
   &.h1{
     font-size: 70px;
   }
@@ -38,9 +42,21 @@ li{
   }
 }
 
+.contents{
+  height: 500px;
+}
+
+.section-title{
+  border-bottom: 2px solid #fff;
+}
+
+.contents-item{
+  float: left;
+}
+
 .footer{
   background-color: #778899;
-  color: #fff;
+  color: $sab;
   height: 120px;
   padding: 40px;
 }
