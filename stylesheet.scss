@@ -43,8 +43,8 @@ li{
 }
 
 .contents{
-  height: 250px;
-  margin-top: 50px;
+  height: 500px;
+  margin-top: 100px;
 }
 
 .section-title{
@@ -57,10 +57,6 @@ li{
 .contents-item{
   float: left;
   margin-right:  40px;
-  &.img .contents-img{
-    width: 100px;
-    height: 100px;
-  }
   &.p{
     font-size: 24px;
     margin-top: 30px;
