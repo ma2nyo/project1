@@ -57,7 +57,7 @@ li{
 .contents-item{
   float: left;
   margin-right: 40px;
-  & img .contents-img{
+  &.contents-img{
     width: 125px;
   }
   &.p{
@@ -68,6 +68,7 @@ li{
 
 .contact-form{
   padding-top: 100px;
+  color: $main;
 }
 
 input,textarea{
